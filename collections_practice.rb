@@ -30,6 +30,5 @@ def sort_array_char_count(strings)
   #   end
   # end
   
-  strings.sort
-  a.length <=> b.length
+  strings.sort { |a, b| a.length <=> b.length }
 end   
