@@ -57,7 +57,7 @@ end
 
 
 def sum_array(integers)
-  integers
+  integers.each { |a| 
 
 end
 
