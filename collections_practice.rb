@@ -3,7 +3,7 @@ def sort_array_asc(integers)
 end 
 
 def sort_array_desc(integers)
-  new_arry = [integers.sort]
-  
-  return new_arry
+  new_arry = []
+  new_arry << integers.sort
+  return new_arry.reverse
 end
