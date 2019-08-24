@@ -4,12 +4,12 @@ end
 
 def sort_array_desc(integers)
   
-integers.sort do |a, b|
+integers.sort do |b, a|
   if a == b
     0
   elsif a < b
     -1
-  elsif a > b
+  else a > b
     1
     end
   end
