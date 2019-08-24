@@ -63,7 +63,8 @@ end
 
 
 def add_s(words)
-  words.map { |word| word << "s" }
+  words.map do |word| 
+  if word
   
   
 end   
