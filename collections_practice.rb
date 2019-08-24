@@ -20,4 +20,7 @@ def sort_array_desc(integers)
 end
 
 
-def array_char_count
+def array_char_count(strings)
+  strings.sort 
+  
+end   
