@@ -63,7 +63,7 @@ end
 
 
 def add_s(words)
-  words.map do |word| 
+  words.each_with_index.map do |word, i| 
   if word
   
   
