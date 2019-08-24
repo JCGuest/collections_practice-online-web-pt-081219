@@ -21,6 +21,6 @@ end
 
 
 def array_char_count(strings)
-  strings.sort 
+  strings.sort { |a, b| 
   
 end   
