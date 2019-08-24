@@ -40,19 +40,3 @@ def swap_elements(array)
 end   
 
 
-def reverse_array(integers)
-integers.reverse
-end
-
-def kesha_maker(strings)
-   strings.each do |item|
-    item[2] = "$"
-  end
-  
-end   
-
-
-def find_a(strings)
-  strings.find { |a| a.start_with("a") }
-  
-end 
