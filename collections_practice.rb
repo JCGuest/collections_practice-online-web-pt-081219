@@ -57,7 +57,7 @@ end
 
 
 def sum_array(integers)
-  integers.each { |sum, a| sum+=a }
+  integers.map { |sum, a| sum+=a }
 
 end
 
