@@ -53,6 +53,11 @@ end
 def find_a(strings)
   strings.select { |a| a.start_with?("a") }
 
+end
+
+
+def sum_array(integers)
+  integers
 
 end
 
