@@ -42,6 +42,6 @@ end
 
 def reverse_array(integers)
  # integers.reverse
- integers.each_with_index.sort 
+ integers.sort { |a, b| b<=>a }
 
 end
