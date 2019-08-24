@@ -11,6 +11,6 @@ integers.sort do |a, b|
     -1
   elsif a > b
     1
+    end
   end
-  
 end
