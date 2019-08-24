@@ -14,8 +14,7 @@ def sort_array_desc(integers)
 #     end
 #   end
 
-
-  # integers.sort  {|a, b| b <=> a}
+integers.sort  {|a, b| b <=> a}
 
 end
 
