@@ -40,7 +40,7 @@ def swap_elements(array)
 end   
 
 
-def revers_array(integers)
-  integers.sort
+def reverse_array(integers)
+  integers
 
 end
