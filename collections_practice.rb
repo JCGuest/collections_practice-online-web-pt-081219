@@ -45,6 +45,8 @@ integers.reverse
 end
 
 def kesha_maker(stings)
-  
+   array.each do |item|
+    item[2] = "$"
+  end
   
 end   
