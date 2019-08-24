@@ -5,5 +5,5 @@ end
 def sort_array_desc(integers)
   
   integers.sort
-  return new_arry.reverse
+  return integers.reverse
 end
