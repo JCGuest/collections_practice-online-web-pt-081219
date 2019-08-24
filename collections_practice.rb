@@ -62,4 +62,8 @@ def sum_array(integers)
 end
 
 
-def add_s
+def add_s(words)
+  words
+  
+  
+end   
