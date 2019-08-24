@@ -65,7 +65,7 @@ end
 def add_s(words)
   words.each_with_index.map do |word, i| 
   unless i == 1
-  end
-  
-  
+ 
+    end
+  end 
 end   
