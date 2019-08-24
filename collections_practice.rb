@@ -35,5 +35,6 @@ end
 
 def swap_elements(array)
   new_array = array.sort
+  new_array
   
 end   
