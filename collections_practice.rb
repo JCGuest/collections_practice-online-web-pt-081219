@@ -35,6 +35,6 @@ end
 
 def swap_elements(array)
   new_array = array.sort
-  ["new_array[0]", "new_array[1]", "new_array[2]"]
+  [new_array[0], new_array[2], new_array[1]]
   
 end   
