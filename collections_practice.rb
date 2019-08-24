@@ -34,6 +34,6 @@ def sort_array_char_count(strings)
 end   
 
 def swap_element(array)
-  array.sort
+  new_array = array.sort
   
 end   
