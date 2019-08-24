@@ -57,7 +57,7 @@ end
 
 
 def sum_array(integers)
-  integers.reduce { |sum, a| sum+=a }
-
+  # integers.reduce { |sum, a| sum+=a }
+  integers.reduce(:+)
 end
 
