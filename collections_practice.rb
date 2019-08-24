@@ -57,7 +57,7 @@ end
 
 
 def sum_array(integers)
-  integers.inject { |sum, a| sum+=a }
+  integers.each { |sum, a| sum+=a }
 
 end
 
