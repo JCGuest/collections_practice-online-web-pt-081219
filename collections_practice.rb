@@ -63,7 +63,7 @@ end
 
 
 def add_s(words)
-  words
+  words.map { |word| "#{word}""s" }
   
   
 end   
