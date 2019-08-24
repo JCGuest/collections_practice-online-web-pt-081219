@@ -50,3 +50,9 @@ def kesha_maker(strings)
   end
   
 end   
+
+
+def find_a(strings)
+  strings.find()
+  
+end 
