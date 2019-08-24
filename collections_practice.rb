@@ -19,7 +19,7 @@ integers.sort  {|a, b| b <=> a}
 end
 
 
-def array_char_count(strings)
+def sort_array_char_count(strings)
   strings.length.sort
   
 end   
