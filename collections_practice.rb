@@ -38,3 +38,9 @@ def swap_elements(array)
 [array[0], array[2], array[1]]
   
 end   
+
+
+def revers_array(integers)
+  
+
+end
