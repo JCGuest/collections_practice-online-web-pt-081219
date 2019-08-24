@@ -32,3 +32,8 @@ def sort_array_char_count(strings)
   
   strings.sort { |a, b| a.length <=> b.length }
 end   
+
+def swap_element(array)
+  array.sort
+  
+end   
