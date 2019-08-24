@@ -53,6 +53,6 @@ end
 
 
 def find_a(strings)
-  strings.find()
+  strings.find { 
   
 end 
