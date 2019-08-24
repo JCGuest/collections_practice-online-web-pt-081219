@@ -61,3 +61,5 @@ def sum_array(integers)
   integers.reduce(:+)
 end
 
+
+def add_s
