@@ -64,8 +64,10 @@ end
 
 def add_s(words)
   words.each_with_index.map do |word, i| 
-  unless i == 1
-  word << "s"
+  if i == 1
+    word
+  else
+    word << "s"
     end
   end 
 end   
