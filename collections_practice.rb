@@ -4,13 +4,14 @@ end
 
 def sort_array_desc(integers)
   
-integers.sort do |b, a|
-  if a == b
-    0
-  elsif a < b
-    -1
-  else a > b
-    1
-    end
-  end
+# integers.sort do |b, a|
+#   if a == b
+#     0
+#   elsif a < b
+#     -1
+#   else a > b
+#     1
+#     end
+#   end
+  array.sort  {|a, b| b <=> a}
 end
