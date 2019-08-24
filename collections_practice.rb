@@ -51,7 +51,7 @@ end
 
 
 def find_a(strings)
-  strings.find { |a| a.start_with?("a") }
+  strings.inspect { |a| a.start_with?("a") }
 
 
 end
