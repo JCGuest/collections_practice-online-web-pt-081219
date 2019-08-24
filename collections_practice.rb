@@ -31,5 +31,5 @@ def sort_array_char_count(strings)
   # end
   
   integers.sort
-  a.lenght <=> b.length
+  a.length <=> b.length
 end   
